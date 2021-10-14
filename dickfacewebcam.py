@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 
-background = cv2.VideoCapture("http://192.168.1.244:8081") #change to 0 for laptop
+background = cv2.VideoCapture(0) 
 
 def overlay_transparent(background, overlay, x, y):
 
