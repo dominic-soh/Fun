@@ -2,6 +2,9 @@ import cv2
 import numpy as np
 
 background = cv2.VideoCapture(0) 
+# Change capture resolution as required to match your webcam resolution
+#background.set(3,<length>) 
+#background.set(4,<width>)
 
 def overlay_transparent(background, overlay, x, y):
 
