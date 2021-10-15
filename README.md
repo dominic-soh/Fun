@@ -1,9 +1,8 @@
 # youre-a-dickhead
 Steps:
 1. Download all files into a folder.
-2. unzip haarcascades.zip
-3. Ensure you have python, opencv, and numpy installed.
-4. Double click dickfacewebcam.py to run the python script!
+2. Ensure you have python, opencv, and numpy installed.
+3. Double click dickfacewebcam.py to run the python script!
 
 Common issues:
 1. Python should not exceed ver 3.8, else opencv will not work.
