@@ -15,4 +15,4 @@ Common issues:
 IP cameras:
 1. https://www.ispyconnect.com/cameras
 2. protocol://username:password@ipaddress:port/PATH
-3. Typical paths: http 80; rtsp 554; https 443;
+3. Typical ports: http 80; rtsp 554; https 443;
