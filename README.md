@@ -12,3 +12,7 @@ Common issues:
 5. Ensure pip is up to date by running <python -m pip install --upgrade pip>.
 6. Install opencv by calling <python -m pip install opencv-python>.
 
+IP cameras:
+1. https://www.ispyconnect.com/cameras
+2. protocol://username:password@ipaddress:port/PATH
+3. Typical paths: http 80; rtsp 554; https 443;
