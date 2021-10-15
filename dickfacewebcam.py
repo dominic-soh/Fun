@@ -40,7 +40,7 @@ def overlay_transparent(background, overlay, x, y):
 
     return background
 
-faceCascade = cv2.CascadeClassifier("haarcascades/haarcascade_frontalface_default.xml")
+faceCascade = cv2.CascadeClassifier("haarcascade_frontalface_default.xml")
 
 
 
