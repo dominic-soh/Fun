@@ -7,7 +7,8 @@ Steps:
 Common issues:
 1. Python should not exceed ver 3.8, else opencv will not work.
 2. Check the box "Add to PATH" in the setup when installing python.
-3. Run cmd as administrator
-4. Ensure pip is up to date by running <pip install --upgrade pip>
-5. Install opencv by calling <python -m pip install opencv-python>
+3. Run cmd as administrator.
+4. If you don't have pip, open the pip folder and double click get-pip.py to install pip.
+5. Ensure pip is up to date by running <pip install --upgrade pip>.
+6. Install opencv by calling <python -m pip install opencv-python>.
 
