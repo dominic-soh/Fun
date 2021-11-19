@@ -1,4 +1,4 @@
-# youre-a-dickhead
+# just-for-fun
 Steps:
 1. Download all files into a folder.
 2. Ensure you have python, opencv, and numpy installed.
