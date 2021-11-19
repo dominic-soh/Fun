@@ -46,7 +46,7 @@ faceCascade = cv2.CascadeClassifier("haarcascade_frontalface_default.xml")
 
 
 
-penis = cv2.imread("penis.png", cv2.IMREAD_UNCHANGED)
+penis = cv2.imread("overlay.png", cv2.IMREAD_UNCHANGED)
 while 1:
     success, img = background.read()
     imgGray = cv2.cvtColor(img,cv2.COLOR_BGR2GRAY)
