@@ -2,7 +2,8 @@
 Steps:
 1. Download all files into a folder.
 2. Ensure you have python, opencv, and numpy installed.
-3. Double click dickfacewebcam.py to run the python script!
+3. Double click webcam.py to run the python script or
+4. `python3 webcam.py` to run!
 
 Common issues:
 1. Python should not exceed ver 3.8, else opencv will not work.
