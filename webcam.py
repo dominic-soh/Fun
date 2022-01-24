@@ -46,15 +46,15 @@ faceCascade = cv2.CascadeClassifier("haarcascade_frontalface_default.xml")
 
 
 
-item = cv2.imread("overlay.png", cv2.IMREAD_UNCHANGED)
+item = cv2.imread("meow.png", cv2.IMREAD_UNCHANGED)
 while 1:
     success, img = background.read()
     imgGray = cv2.cvtColor(img,cv2.COLOR_BGR2GRAY)
     faces = faceCascade.detectMultiScale(imgGray, 1.3, 5)
     for (x,y,w,h) in faces:
-        cv2.rectangle(img,(x,y),(x+w,y+h),(255,0,0),2)
-        overlay_transparent(img, item, (x+w+w)//2, (y)//2)
-        cv2.putText(img, "Happy Birthday!", (x,y), cv2.FONT_HERSHEY_COMPLEX, 1, (255,0,0), 1)
+        #cv2.rectangle(img,(x,y),(x+w,y+h),(255,0,0),2)
+        overlay_transparent(img, item, (x+w)//2, y//2)
+        cv2.putText(img, "Meow!", (x+w//2,y+h), cv2.FONT_HERSHEY_COMPLEX, 1, (255,0,0), 1)
     cv2.imshow("Result", img)
     if cv2.waitKey(1) & 0xFF == 27:
         break
